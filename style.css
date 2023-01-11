@@ -31,18 +31,22 @@
     #logo_mobile {
         display: block;
         width: 50%;
-        margin-top: 50px;
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 
     #logo_desktop,
     header {
         display: none;
     }
+    
 }
 
 .logo {
     padding: 10px;
     width: 30%;
+    min-width: 200px;
+    max-width: 200px;
 }
 
 header {
@@ -61,6 +65,9 @@ header {
 .input-container {
     display: flex;
     flex-direction: column;
+    width: 70%;
+    max-width: 350px;
+    min-width: 300px;
 }
 
 .encabezado {
@@ -68,7 +75,6 @@ header {
 }
 
 .title {
-    margin-top: 56px;
     margin-bottom: 10px;
     font-size: var(--lg);
 }
@@ -83,6 +89,7 @@ header {
 .form {
     display: flex;
     flex-direction: column;
+    
 }
 
 .label {
@@ -133,4 +140,10 @@ header {
 .form p a {
     color: var(--hospital-green);
     text-decoration: none;
+}
+.sign-buttom{
+    margin-top: 350px;
+    background-color: var(--white);
+    border: 1px var(--hospital-green) solid;
+    color: var(--hospital-green);
 }
